@@ -1,4 +1,4 @@
-# Oversize-Labels
+# Oversize Labels
 A mod for The Ultimate Nerd Game using the PiTUNG framework. Adds some larger labels.
 
 To use:  
