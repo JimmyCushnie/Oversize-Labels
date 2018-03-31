@@ -8,4 +8,4 @@ Then, download the [latest release](https://github.com/Iamsodarncool/Oversize-La
 
 This mod contains a flexible method for adding your own custom labels of any dimension, so feel free to mod this mod :)
 
-![seen here with my Oversize Buttons mod](https://i.imgur.com/RmLfyDG.jpg)
+![seen here with my Oversize Buttons mod](https://i.imgur.com/xxhhRIX.jpg)
