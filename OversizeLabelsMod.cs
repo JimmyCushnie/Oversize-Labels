@@ -12,9 +12,9 @@ public class OversizeLabels : Mod
 
     public override void BeforePatch()
     {
-        ComponentRegistry.CreateNew<CustomLabel>("WidePanelLabel", "Wide Panel Label", CreatePanelLabelOfSize(3, 1));
-        ComponentRegistry.CreateNew<CustomLabel>("TallPanelLabel", "Tall Panel Label", CreatePanelLabelOfSize(1, 3));
-        ComponentRegistry.CreateNew<CustomLabel>("BigPanelLabel", "Big Panel Label", CreatePanelLabelOfSize(2, 2));
+        ComponentRegistry.CreateNew<CustomLabel>(this, "WidePanelLabel", "Wide Panel Label", CreatePanelLabelOfSize(3, 1));
+        ComponentRegistry.CreateNew<CustomLabel>(this, "TallPanelLabel", "Tall Panel Label", CreatePanelLabelOfSize(1, 3));
+        ComponentRegistry.CreateNew<CustomLabel>(this, "BigPanelLabel", "Big Panel Label", CreatePanelLabelOfSize(2, 2));
 
         // the world is not ready
         // ComponentRegistry.CreateNew<CustomLabel>("CollosallyWidePanelLabel", "Collosally Wide Panel Label", PanelLabelOfSize(51, 1));
